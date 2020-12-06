@@ -1,0 +1,54 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #013B5A;
+    overflow: hidden;
+  }
+  
+  .section {
+    color: white;
+    padding: 10px;
+  }
+  
+  .section.blue {
+    background-color: #006D77;
+  }
+  
+  .section.blue p {
+    color: #FFDDD2;
+  }
+  
+  .section.peach {
+    background-color: #FFDDD2;
+  }
+  
+  .section.peach p {
+    color: #006D77;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #4b84a3;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .topnav img {
+      width: 30px;
+      height: 30px;
+  }
+  
