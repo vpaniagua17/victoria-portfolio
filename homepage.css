@@ -19,6 +19,11 @@
   
   .section.peach {
     background-color: #FFDDD2;
+
+  }
+
+  .section.peach h2 {
+    color: #006D77
   }
   
   .section.peach p {
@@ -33,6 +38,8 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
+    font-family: myFirstFont;
+    src: url(antic/AnticSans-Regular.otf);
   }
   
   /* Change the color of links on hover */
@@ -43,7 +50,7 @@
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #4c77af;
     color: white;
   }
 
@@ -51,4 +58,167 @@
       width: 30px;
       height: 30px;
   }
+
+  .section.blue img {
+    flex-direction: row-reverse;
+    width: 400px;
+    height: 400px;
+    padding: 5%;
+  }  
+
+  .section.peach img {
+    width: 400px;
+    height: 400px;
+    padding: 5%;
+  }
+
+  h1 {
+    font-family: myFirstFont;
+    src: url(antic/AnticSans-Regular.otf);
+  }
+
+  h2 {
+    font-family: myFirstFont;
+    src: url(antic/AnticSans-Regular.otf);
+  }
+
+  p {
+    font-family: myFirstFont;
+    src: url(antic/AnticSans-Regular.otf);
+  }
+    
   
+    @font-face {
+      font-family: myFirstFont;
+      src: url(antic/AnticSans-Regular.otf);
+      font-weight: regular;
+    }
+
+    .maincontainer1 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .AboutMe {
+      background-color: #006D77;
+      padding: 10px;
+      display: flex;
+    }
+
+    .AboutMe h1 {
+      color: azure;
+    }
+    
+    .AboutMe h2 {
+      color: azure
+    }
+
+    .aboutmetext {
+      color: #FFDDD2;
+      background-color: #006D77;
+      padding: 5%;
+      flex: 50%;
+      flex-direction: row;
+    }
+    
+    .victoriaimg {
+      color: #006d77;
+      background-color: #006D77;
+      padding: 5%;
+      flex: 50%;
+    }
+
+    .victoriaimg img{
+      width: 400px;
+      height: 400px;
+      padding: 5%;
+
+    }
+
+    .SUFK {
+      background-color: #FFDDD2;
+      padding: 10px;
+      display: flex;
+    }
+    
+    .sufkimg {
+      color: #006d77;
+      background-color: #FFDDD2;
+      padding: 5%;
+      flex: 50%;
+    }
+    
+    .standupforkids {
+      color: #006d77;
+      background-color: #FFDDD2;
+      padding: 5%;
+      flex: 50%;
+    }
+
+    .sufkimg img{
+      width: 400px;
+      height: 400px;
+      padding: 5%;
+
+    }
+
+    .maincontainer2 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .DarkSpot {
+      background-color: #FFDDD2;
+      padding: 10px;
+      display: flex;
+    }
+    
+    .darkspottext {
+      color: #006D77;
+      background-color: #FFDDD2;
+      padding: 5%;
+      flex: 50%;
+      flex-direction: row;
+    }
+    
+    .darkspotimg {
+      color: #006d77;
+      background-color: #FFDDD2;
+      padding: 5%;
+      flex: 50%;
+    }
+
+    .darkspotimg img{
+      width: 400px;
+      height: 400px;
+      padding: 5%;
+
+    }
+
+    .LoanEdu {
+      background-color: #006D77;
+      padding: 10px;
+      display: flex;
+    }
+    
+    .box-1 {
+      color: #FFDDD2;
+      background-color: #006D77;
+      padding: 5%;
+      flex: 50%;
+    }
+    
+    .box-2 {
+      color: #FFDDD2;
+      background-color: #006D77;
+      padding: 5%;
+      flex: 50%;
+    }
+
+    .box-1 img{
+      width: 400px;
+      height: 400px;
+      padding: 5%;
+
+    }
+    
